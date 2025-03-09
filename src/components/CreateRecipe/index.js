@@ -23,7 +23,7 @@ const CreateRecipe = ({ updateRecipes }) => {
       return;
     }
     try {
-      const res = await fetch("http://localhost:5000/api/recipes", {
+      const res = await fetch("https://recipe-management-backend-4wwp.onrender.com/api/recipes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
