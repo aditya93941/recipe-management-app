@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f8ff; /* AliceBlue */
+}
+
+.app {
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  color: #1e90ff; /* Dodger Blue */
+  margin-bottom: 20px;
+}
